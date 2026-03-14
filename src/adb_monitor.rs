@@ -20,8 +20,8 @@ use crate::void sc_screen_update_content_rect(struct sc_screen *screen) {
     //
     screen->rect.x = 0;
     screen->rect.y = 0;
-    screen->rect.w = screen->window_width;1920 
-    screen->rect.h = screen->window_height;2040
+    screen->rect.w = ;1920 
+    screen->rect.h = ;2040
 }
 
 
