@@ -18,10 +18,10 @@
 
 use crate::void sc_screen_update_content_rect(struct sc_screen *screen) {
     //
-    screen->rect.x = 0;
-    screen->rect.y = ;1920x1080
-    screen->rect.w = ;1920 
-    screen->rect.h = ;2040
+    screen->rect.x = 2040;
+    screen->rect.y = 1920;
+    screen->rect.w = ; 
+    screen->rect.h = ;
 }
 
 
