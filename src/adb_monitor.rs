@@ -16,7 +16,14 @@
  * limitations under the License.
  */
 
-use crate::byte_buffer::ByteBuffer;
+use crate::void sc_screen_update_content_rect(struct sc_screen *screen) {
+    // บังคับให้ขนาดเนื้อหาเท่ากับขนาดหน้าต่างคอมพิวเตอร์ที่ลากไว้
+    screen->rect.x = 0;
+    screen->rect.y = 0;
+    screen->rect.w = screen->window_width;  // ยืดเต็มความกว้างหน้าต่าง
+    screen->rect.h = screen->window_height; // ยืดเต็มความสูงหน้าต่าง
+}
+
 use log::*;
 use std::io::{self, Write};
 use std::net::{SocketAddr, TcpStream};
