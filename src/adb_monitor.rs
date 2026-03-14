@@ -19,7 +19,7 @@
 use crate::void sc_screen_update_content_rect(struct sc_screen *screen) {
     //
     screen->rect.x = 0;
-    screen->rect.y = ;wm density 320
+    screen->rect.d = y;1920x1080
     screen->rect.w = ;1920 
     screen->rect.h = ;2040
 }
