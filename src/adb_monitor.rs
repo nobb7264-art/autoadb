@@ -23,8 +23,8 @@ use crate::void sc_screen_update_content_rect(struct sc_screen *screen) {
     screen->rect.w = screen->window_width;  // ยืดเต็มความกว้างหน้าต่าง
     screen->rect.h = screen->window_height; // ยืดเต็มความสูงหน้าต่าง
 }
-adb shell wm size [ความกว้าง]x[ความสูง]
-adb shell wm density [ตัวเลข DPI]
+ shell wm size;
+ shell wm density;
 
 
 
